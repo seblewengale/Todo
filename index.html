@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Web design</title>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+  </head>
+  <body>
+    <h1>To Do Lists </h1>
+     <article>
+       <h2>What are the tasks to complete today?</h2>
+       <fieldset>
+         <legend ><strong>Person</strong></legend>
+       <form >
+
+       <label> Name:</label>
+        <input type="radio" name="Jeremy" value="Jeremy">
+        Jeremy
+        <input type="radio" name="Helen" value="Helen">
+        Helen
+        <input type="radio" name="Seble" value="Seble">
+        Seble
+       </select>
+      </fieldset>
+     </article>
+     <br>
+          <fieldset>
+       <legend><strong>Task Information</strong></legend>
+       <label>Task </label>
+       <select name="Easy">
+       <option value="None selected">Please select below</option>
+       <option value="Easy">Easy</option>
+       <option value="Regular">Regular</option>
+       <option value="Imposible">Impossible</option>
+       <option value="Difficult">Difficult</option>
+      </select>
+       <label>Task Description</label>
+       <form name="toDoList">
+    			<input type="text" name="ListItem"/>
+     </fieldset>
+    		</form>
+    		<div id="button">Add</div>
+    		<br/>
+    		<ol></ol>
+<script type="text/javascript" src="todo.js"></script>
+  </body>
+</html>
